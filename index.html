@@ -21,9 +21,12 @@
     </style>
 </head>
 <body>
-    <video controls autoplay>
+    <video id="vid" controls autoplay>
         <source src="https://weck-rolled.s3.us-east-1.amazonaws.com/weckrolled-site.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    <script>
+        document.getElementById('vid').play();
+    </script>
 </body>
 </html>
